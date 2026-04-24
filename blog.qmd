@@ -1,0 +1,14 @@
+---
+title: "Blog"
+---
+
+
+
+::: {style="text-align: center; padding: 4rem 0; font-family: Georgia, serif; font-size: 1.3rem; color: #555;"}
+*The joy is in the pursuit.*
+:::
+
+---
+
+Personal writing at [Climaginative](https://sofiafabian.substack.com).
+

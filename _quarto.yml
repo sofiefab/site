@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sofia Fabian"
+  description: "Postdoctoral researcher in hydrology and climate science"
+  navbar:
+    left:
+      - href: about.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/sofiefab
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Sofia Fabian"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: article

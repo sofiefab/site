@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(quarto --versioitit is sintsatlled but im not sure wh you are anot seeing it)"
+    ]
+  }
+}

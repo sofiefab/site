@@ -1,0 +1,15 @@
+---
+title: "Speaking"
+---
+
+## Talks & Panels
+
+**[Talk title]** (Year)
+*[Event or conference name]*, [Location]
+[Slides or recording link if available](#)
+
+---
+
+## Media & Policy Work
+
+[Any op-eds, policy briefs, media appearances, or science communication work.]

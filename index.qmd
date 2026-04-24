@@ -1,0 +1,10 @@
+---
+title: ""
+page-layout: full
+---
+
+## Sofia Fabian
+
+Postdoctoral researcher in hydrology and climate science. Passionate about how water systems, climate extremes, and policy decisions shape each other.
+
+[About](about.qmd) · [Research](research.qmd)

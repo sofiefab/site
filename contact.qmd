@@ -1,0 +1,16 @@
+---
+title: "Contact"
+---
+
+The best way to reach me is by email: **[your.email@institution.edu]**
+
+I am happy to hear from researchers, journalists, policymakers, or anyone working at the intersection of climate science and public life.
+
+---
+
+You can also find me on:
+
+- [Google Scholar](#)
+- [ORCID](#)
+- [GitHub](#)
+- [LinkedIn](#)
