@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sofiefab.github.io/test_site/blog.html</loc>
+    <loc>https://sofiefab.github.io/site/blog.html</loc>
+    <lastmod>2026-05-01T13:35:16.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sofiefab.github.io/site/index.html</loc>
     <lastmod>2026-05-01T10:00:56.200Z</lastmod>
   </url>
   <url>
-    <loc>https://sofiefab.github.io/test_site/index.html</loc>
+    <loc>https://sofiefab.github.io/site/contact.html</loc>
     <lastmod>2026-05-01T10:00:56.200Z</lastmod>
   </url>
   <url>
-    <loc>https://sofiefab.github.io/test_site/contact.html</loc>
-    <lastmod>2026-05-01T10:00:56.200Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sofiefab.github.io/test_site/research.html</loc>
+    <loc>https://sofiefab.github.io/site/research.html</loc>
     <lastmod>2026-05-01T10:00:56.201Z</lastmod>
   </url>
   <url>
-    <loc>https://sofiefab.github.io/test_site/speaking.html</loc>
+    <loc>https://sofiefab.github.io/site/speaking.html</loc>
     <lastmod>2026-05-01T10:00:56.201Z</lastmod>
   </url>
   <url>
-    <loc>https://sofiefab.github.io/test_site/about.html</loc>
+    <loc>https://sofiefab.github.io/site/about.html</loc>
     <lastmod>2026-05-01T10:00:56.178Z</lastmod>
   </url>
 </urlset>
