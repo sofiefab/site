@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "speaking.html",
-    "href": "speaking.html",
-    "title": "Speaking",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "[Talk title] (Year) [Event or conference name], [Location] Slides or recording link if available"
-  },
-  {
-    "objectID": "speaking.html#talks-panels",
-    "href": "speaking.html#talks-panels",
-    "title": "Speaking",
-    "section": "",
-    "text": "[Talk title] (Year) [Event or conference name], [Location] Slides or recording link if available"
-  },
-  {
-    "objectID": "speaking.html#media-policy-work",
-    "href": "speaking.html#media-policy-work",
-    "title": "Speaking",
-    "section": "Media & Policy Work",
-    "text": "Media & Policy Work\n[Any op-eds, policy briefs, media appearances, or science communication work.]"
+    "text": "The joy is in the pursuit.\n\n\nPersonal writing at Climaginative."
   },
   {
     "objectID": "index.html",
@@ -33,34 +19,6 @@
     "title": "Sofia Fabian",
     "section": "",
     "text": "Postdoctoral researcher in hydrology and climate science. Passionate about how water systems, climate extremes, and policy decisions shape each other.\nAbout · Research"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "The joy is in the pursuit.\n\n\nPersonal writing at Climaginative."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m Sofia Fabian, a postdoctoral researcher in hydrology and climate science at Sejong University, Seoul.\nI’m a chemical engineer by training, with three and a half years of R&D experience at a semiconductor company before moving into research. A diverse background that taught me to value a strong work ethic. I’m now orienting toward the space where climate and environmental modeling meets policy decisions that move the needle.\nI love tennis, but can’t guarantee I’m good at it.I love camping and I bet it loves me back :)"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About",
-    "section": "Background",
-    "text": "Background\nPostdoctoral Researcher, Sejong University — 03.2025 – Present\nPhD, Civil and Environmental Engineering, Sejong University — 03.2023 – 02.2025\nMS, Civil and Environmental Engineering, Dongguk University — 03.2020 – 02.2022\nBS, Chemical Engineering, Mapua University — 08.2011 – 02.2016\nR&D Engineer & Product Technical Team Leader, Samsung Electro-Mechanics — 09.2016 – 02.2020"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About",
-    "section": "Contact",
-    "text": "Contact\n\nEmail — psdfabian@gmail.com\nLinkedIn — in/pamelasofiafabian\nResearch Gate — Profile\nORCID — 0000-0002-9196-212X"
   },
   {
     "objectID": "contact.html",
@@ -96,5 +54,47 @@
     "title": "Research",
     "section": "Sample Presentations",
     "text": "Sample Presentations\n2025 AGU Poster\nAmerican Geophysical Union, 2025"
+  },
+  {
+    "objectID": "speaking.html",
+    "href": "speaking.html",
+    "title": "Speaking",
+    "section": "",
+    "text": "[Talk title] (Year) [Event or conference name], [Location] Slides or recording link if available"
+  },
+  {
+    "objectID": "speaking.html#talks-panels",
+    "href": "speaking.html#talks-panels",
+    "title": "Speaking",
+    "section": "",
+    "text": "[Talk title] (Year) [Event or conference name], [Location] Slides or recording link if available"
+  },
+  {
+    "objectID": "speaking.html#media-policy-work",
+    "href": "speaking.html#media-policy-work",
+    "title": "Speaking",
+    "section": "Media & Policy Work",
+    "text": "Media & Policy Work\n[Any op-eds, policy briefs, media appearances, or science communication work.]"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Sofia Fabian, a postdoctoral researcher in hydrology and climate science at Sejong University, Seoul.\nI’m a chemical engineer by training, with three and a half years of R&D experience at a semiconductor company before moving into research. A diverse background that taught me to value a strong work ethic. I’m now orienting toward the space where climate and environmental modeling meets policy decisions that move the needle.\nI love tennis, but can’t guarantee I’m good at it.I love camping and I bet it loves me back :)"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nPostdoctoral Researcher, Sejong University — 03.2025 – Present\nPhD, Civil and Environmental Engineering, Sejong University — 03.2023 – 02.2025\nMS, Civil and Environmental Engineering, Dongguk University — 03.2020 – 02.2022\nBS, Chemical Engineering, Mapua University — 08.2011 – 02.2016\nR&D Engineer & Product Technical Team Leader, Samsung Electro-Mechanics — 09.2016 – 02.2020"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail — psdfabian@gmail.com\nLinkedIn — in/pamelasofiafabian\nResearch Gate — Profile\nORCID — 0000-0002-9196-212X"
   }
 ]
