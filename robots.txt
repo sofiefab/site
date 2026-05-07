@@ -1,1 +1,1 @@
-Sitemap: https://sofiefab.github.io/site/sitemap.xml
+Sitemap: https://sofiefab.github.io/acad_site/sitemap.xml
