@@ -23,123 +23,214 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="home.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Sofia Fabian</span>
-    </a>
+
+
+
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">Sofia Fabian</a>
+    <ul class="nav-links">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#climaginative">Climaginative</a></li>
+    </ul>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sofiefab"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="top">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Water Sustainability &amp; Climate Resilience</p>
+    <h1>I investigate how climate extremes reshape water systems and <em>what that means for us, and what can we do about it.</em></h1>
+    <p class="hero-sub">Postdoctoral researcher in hydrology and climate science. My work connects climate extreme dynamics, ecology, and people.</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#research">Research</a>
+      <a class="btn btn-outline" href="mailto:psdfabian@gmail.com">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="sidebar-label">Background</div>
+    <ul class="bg-list">
+      <li>
+        <div class="bg-role">Postdoctoral Researcher, Sejong University</div>
+        <div class="bg-year">2025–present</div>
+      </li>
+      <li>
+        <div class="bg-role">PhD, Civil &amp; Environmental Eng., Sejong University</div>
+        <div class="bg-year">2023–25</div>
+      </li>
+      <li>
+        <div class="bg-role">MS, Civil &amp; Environmental Eng., Dongguk University</div>
+        <div class="bg-year">2020–22</div>
+      </li>
+      <li>
+        <div class="bg-role">R&amp;D Engineer &amp; Product Tech Lead, Samsung Electro-Mechanics</div>
+        <div class="bg-year">2016–20</div>
+      </li>
+      <li>
+        <div class="bg-role">BS, Chemical Engineering, Mapua University</div>
+        <div class="bg-year">2011–16</div>
+      </li>
+    </ul>
+    <div class="sidebar-links">
+      <a href="https://www.linkedin.com/in/pamelasofiafabian/" target="_blank">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Pamela-Sofia-Fabian" target="_blank">ResearchGate</a>
+      <a href="https://www.webofscience.com/wos/author/record/IXD-7923-2023" target="_blank">Web of Science</a>
+      <a href="https://orcid.org/0000-0002-9196-212X" target="_blank">ORCID</a>
+      <a href="https://github.com/sofiefab" target="_blank">GitHub</a>
+    </div>
+  </div>
 </div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+<!-- BODY: two-column -->
+<div class="body-wrap">
+
+  <!-- MAIN -->
+  <div class="main-col">
+
+    <!-- RESEARCH -->
+    <div id="research">
+      <p class="section-tag">Research</p>
+
+      <p class="sub-tag">Presentations</p>
+      <div class="pres-entry">
+        <div class="pub-number">2025 · AGU Poster</div>
+        <p><cite>2025 AGU Poster</cite> — <em>American Geophysical Union</em>, 2025</p>
+        <img class="pres-img" src="agu_poster_2025.png" alt="2025 AGU Poster">
+      </div>
+
+      <p class="sub-tag spaced">Publications</p>
+      <ol class="pub-list" reversed="">
+
+        <li class="pub-entry">
+          <div class="pub-number">Under review</div>
+          <p><cite>Pamela Sofia Fabian</cite>, YoonKyung Cha, Hyun-Han Kwon, 'Intra-annual chlorophyll-a dynamics under hydroclimatic extremes derived from a 44-year baseline: insights from a temperate river system (Nakdong River Basin, South Korea)', <em>Water Resources Research</em> <span class="under-review-tag">2nd stage</span></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">Under review</div>
+          <p><cite>Pamela Sofia Fabian</cite>, Hemie Cho, Yoo-Geun Ham, Hyun-Han Kwon, 'Climate-informed streamflow forecasting based on a Bayesian autoregressive exogenous stochastic volatility model and its use for hydrological drought forecasting', <em>Journal of Hydrology</em> <span class="under-review-tag">2nd stage</span></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">[5] · 2025</div>
+          <p><cite>Pamela Sofia Fabian</cite>, YoonKyung Cha, Kyung-A You, Hyun-Han Kwon, 'Spatiotemporal Dynamics of Summer Chlorophyll-a Concentrations Under Varying Drought Conditions in a Hierarchical Bayesian Model', <em>Chemical Engineering Journal</em> 2025.<br>
+          <a href="https://doi.org/10.1016/j.cej.2025.163074" target="_blank">https://doi.org/10.1016/j.cej.2025.163074</a></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">[4] · 2024</div>
+          <p>Hemie Cho, <cite>Pamela Sofia Fabian</cite>, Sang-Hoon Lee, Kyung-A You, Hyun-Han Kwon, 'Decadal Trends and Predictive Insights into Aquatic Ecosystem Health in the Namhan River, South Korea: Longitudinal Analysis of Hydro-Environmental Factors and Stream Health Indices (2008–2022)', <em>Environmental Pollution</em> 2024.<br>
+          <a href="https://doi.org/10.1016/j.envpol.2024.125184" target="_blank">https://doi.org/10.1016/j.envpol.2024.125184</a></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">[3] · 2023</div>
+          <p><cite>Pamela Sofia Fabian</cite>, Hyun-Han Kwon, Meththika Vithanage, Joo-Heon Lee, 'Modeling, challenges and strategies for understanding impacts of climate extremes (droughts and floods) on water quality in Asia: A review', <em>Environmental Research</em> 2023.<br>
+          <a href="https://doi.org/10.1016/j.envres.2023.115617" target="_blank">https://doi.org/10.1016/j.envres.2023.115617</a></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">[2] · 2022</div>
+          <p><cite>Pamela Sofia Fabian</cite>, Dong Hoon Lee, Sang Wook Shin, and Joo-Hyon Kang, 'Assessment of Pyrene Adsorption on Biochars Prepared from Green Infrastructure Plants: Toward a Closed-Loop Recycling in Managing Toxic Stormwater Pollutants', <em>Journal of Water Process Engineering</em> 2022.<br>
+          <a href="https://doi.org/10.1016/j.jwpe.2022.102929" target="_blank">https://doi.org/10.1016/j.jwpe.2022.102929</a></p>
+        </li>
+
+        <li class="pub-entry">
+          <div class="pub-number">[1] · 2021</div>
+          <p>Dong Hoon Lee, <cite>Pamela Sofia Fabian</cite>, Jin Hwi Kim, Joo-Hyon Kang, 'HSPF-Based Assessment of Inland Nutrient Source Control Strategies to Reduce Algal Blooms in Streams in Response to Future Climate Changes', <em>Sustainability</em> 2021.<br>
+          <a href="https://doi.org/10.3390/su132212413" target="_blank">https://doi.org/10.3390/su132212413</a></p>
+        </li>
+
+      </ol>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about" style="margin-top: 4rem;">
+      <p class="section-tag">About</p>
+      <div class="about-text">
+        <p>I'm Sofia Fabian, a postdoctoral researcher in hydrology and climate science.</p>
+        <p>I'm a chemical engineer by training, with three and a half years of R&amp;D experience at a semiconductor company before moving into research. A diverse background that taught me to value an independent strong work ethic, and leaning into own curiosity and serendipity. I've always believed that to research, is to know, to understand, and to solve. I'm now orienting toward the space where climate and environmental modeling meets policy decision.</p>
+        <p>I love tennis, but can't guarantee I'm good at it. I love camping and I bet it loves me back :)</p>
+      </div>
+    </div>
+
+  </div><!-- /main-col -->
+
+  <!-- SIDEBAR -->
+  <div class="side-col">
+
+    <div class="side-panel">
+      <div class="side-panel-label">Research interests</div>
+      <p>Climate extremes and water quality dynamics. Drought-driven ecological change. Bayesian probabilistic modeling. Socio-hydrology and the translation of environmental modeling into policy-relevant insight.</p>
+    </div>
+
+    <div class="side-panel">
+      <div class="side-panel-label">Contact</div>
+      <p><a href="mailto:psdfabian@gmail.com">psdfabian@gmail.com</a></p>
+    </div>
+
+    <!-- CLIMAGINATIVE -->
+    <div id="climaginative" class="clim-panel">
+      <div class="clim-tag">Beyond the lab</div>
+      <div class="clim-title">Cl<em>imaginative</em></div>
+      <div class="clim-desc">Climate curiosity, without the doom. A project on why imagination might be the most underused tool in climate action.</div>
+    </div>
+
+  </div><!-- /side-col -->
+
+</div><!-- /body-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-name">Sofia Fabian</div>
+    <ul class="footer-links">
+      <li><a href="mailto:psdfabian@gmail.com">psdfabian@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/pamelasofiafabian/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.researchgate.net/profile/Pamela-Sofia-Fabian" target="_blank">ResearchGate</a></li>
+      <li><a href="https://www.webofscience.com/wos/author/record/IXD-7923-2023" target="_blank">Web of Science</a></li>
+      <li><a href="https://orcid.org/0000-0002-9196-212X" target="_blank">ORCID</a></li>
+      <li><a href="https://github.com/sofiefab" target="_blank">GitHub</a></li>
+    </ul>
+    <div class="footer-copy">© 2026 Sofia Fabian</div>
+  </div>
+</footer>
 
 
-
-
-<section id="sofia-fabian" class="level2">
-<h2 class="anchored" data-anchor-id="sofia-fabian">Sofia Fabian</h2>
-<p>Postdoctoral researcher in hydrology and climate science. Passionate about how water systems, climate extremes, and policy decisions shape each other.</p>
-<p><a href="./about.html">About</a> · <a href="./research.html">Research</a></p>
-
-
-</section>
-
-</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -238,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'quarto',
+        theme: 'light-border',
         placement: 'bottom-start',
       };
       if (contentFn) {
@@ -538,20 +629,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>© 2026 Sofia Fabian</p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 
