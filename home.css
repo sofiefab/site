@@ -28,6 +28,8 @@ body {
   font-size: 16px;
   line-height: 1.7;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Neutralize Quarto's content wrappers so the custom layout owns the page */

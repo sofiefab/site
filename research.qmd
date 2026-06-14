@@ -6,7 +6,7 @@ title: "Research"
 
 My curiosity and research interest sit between how climate extremes transition to environmental changes and variability, particularly water quality and ecological health. My current projects examine drought-algal bloom dynamics and how drought influences physicochemical properties of water and shape biological indicators of river health.
 
-## --- SAMPLE PUBLICATIONS
+## SAMPLE PUBLICATIONS
 
 [5] *Pamela Sofia Fabian*, YoonKyung Cha, Kyung-A You, Hyun-Han Kwon, [‘Spatiotemporal Dynamics of Summer Chlorophyll-a Concentrations Under Varying Drought Conditions in a Hierarchical Bayesian Model’](https://doi.org/10.1016/j.cej.2025.163074), Chemical Engineering Journal 2025.
 
@@ -26,7 +26,7 @@ My curiosity and research interest sit between how climate extremes transition t
 
 ---
 
-## ---- SAMPLE PRESENTATIONS
+## SAMPLE PRESENTATIONS
 
 **2025 AGU Poster** \
 *American Geophysical Union*, 2025

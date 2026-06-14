@@ -1,0 +1,128 @@
+---
+pagetitle: "TEDxSeoul Year-End Gathering 2025 — Sofia Fabian"
+date: 2025-12-05
+format:
+  html:
+    theme: none
+    css: ../home.css
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <style>
+          .post-wrap {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 6rem 2rem 5rem;
+            flex: 1;
+          }
+          .post-back {
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--navy-muted);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 3rem;
+            transition: color 0.2s;
+          }
+          .post-back:hover { color: var(--navy); }
+          .event-details {
+            font-size: 12.5px;
+            color: var(--navy-muted);
+            line-height: 2;
+            font-weight: 300;
+            margin-bottom: 2rem;
+          }
+          .event-details strong {
+            font-weight: 600;
+            color: var(--navy);
+          }
+          .photo-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 2.5rem;
+          }
+          .photo-pair img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 2px;
+            object-fit: cover;
+          }
+          .post-body {
+            font-size: 12.5px;
+            color: var(--navy-mid);
+            line-height: 1.9;
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+          }
+          .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 1.5rem;
+          }
+          .photo-grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 2px;
+            object-fit: cover;
+          }
+          .post-credits {
+            font-size: 11.5px;
+            color: var(--navy-muted);
+            font-weight: 300;
+          }
+        </style>
+---
+
+```{=html}
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Sofia Fabian</a>
+    <ul class="nav-links">
+      <li><a href="../blog.html">← Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="post-wrap">
+
+  <a class="post-back" href="../blog.html">← Blog</a>
+
+  <div class="event-details">
+    TEDxSeoul Year-End Gathering 2025 'The Story Continues'<br>
+    December 5, 2026; Joseon Salon KOTE, Insadong
+  </div>
+
+  <div class="photo-pair">
+    <img src="post1/photo0.jpg" alt="TEDxSeoul 2025">
+    <img src="post1/photo1.jpeg" alt="TEDxSeoul 2025">
+  </div>
+
+  <p class="post-body">On December 5, 2025, I gave a talk at TEDxSeoul on why climate science might be asking the wrong questions, and what happens when we replace crisis framing with imagination. It was the beginning of a line of thinking I'm still developing. Climaginative grew out of it.</p>
+
+  <div class="photo-grid">
+    <img src="post1/photo2.jpeg" alt="TEDxSeoul 2025">
+    <img src="post1/photo3.jpeg" alt="TEDxSeoul 2025">
+    <img src="post1/photo4.jpeg" alt="TEDxSeoul 2025">
+  </div>
+
+  <p class="post-credits">Photos: TEDxSeoul Photographer</p>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-name">Sofia Fabian</div>
+    <div class="footer-copy">© 2026 Sofia Fabian</div>
+  </div>
+</footer>
+```
