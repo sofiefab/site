@@ -8,16 +8,21 @@ My curiosity and research interest sit between how climate extremes transition t
 
 ## --- SAMPLE PUBLICATIONS
 
-[5] *Pamela Sofia Fabian*, YoonKyung Cha, Kyung-A You, Hyun-Han Kwon, ‘Spatiotemporal Dynamics of Summer Chlorophyll-a Concentrations Under Varying Drought Conditions in a Hierarchical Bayesian Model’, Chemical Engineering Journal 2025. https://doi.org/10.1016/j.cej.2025.163074 
+[5] *Pamela Sofia Fabian*, YoonKyung Cha, Kyung-A You, Hyun-Han Kwon, [‘Spatiotemporal Dynamics of Summer Chlorophyll-a Concentrations Under Varying Drought Conditions in a Hierarchical Bayesian Model’](https://doi.org/10.1016/j.cej.2025.163074), Chemical Engineering Journal 2025.
 
-[4] Hemie Cho, *Pamela Sofia Fabian*, Sang-Hoon Lee, Kyung-A You, Hyun-Han Kwon, ‘Decadal Trends and Predictive Insights into Aquatic Ecosystem Health in the Namhan River, South Korea: Longitudinal Analysis of Hydro-Environmental Factors and Stream Health Indices (2008–2022)’, Environmental Pollution 2024. https://doi.org/10.1016/j.envpol.2024.125184
+[4] Hemie Cho, *Pamela Sofia Fabian*, Sang-Hoon Lee, Kyung-A You, Hyun-Han Kwon, [‘Decadal Trends and Predictive Insights into Aquatic Ecosystem Health in the Namhan River, South Korea: Longitudinal Analysis of Hydro-Environmental Factors and Stream Health Indices (2008–2022)’](https://doi.org/10.1016/j.envpol.2024.125184), Environmental Pollution 2024.
 
-[3] *Pamela Sofia Fabian*, Hyun-Han Kwon, Meththika Vithanage, Joo-Heon Lee, ‘Modeling, challenges and strategies for understanding impacts of climate extremes (droughts and floods) on water quality in Asia: A review’, Environmental Research 2023. https://doi.org/10.1016/j.envres.2023.115617
+[3] *Pamela Sofia Fabian*, Hyun-Han Kwon, Meththika Vithanage, Joo-Heon Lee, [‘Modeling, challenges and strategies for understanding impacts of climate extremes (droughts and floods) on water quality in Asia: A review’](https://doi.org/10.1016/j.envres.2023.115617), Environmental Research 2023.
 
-[2] *Pamela Sofia Fabian*, Dong Hoon Lee, Sang Wook Shin, and Joo-Hyon Kang, ‘Assessment of Pyrene Adsorption on Biochars Prepared from Green Infrastructure Plants: Toward a Closed-Loop Recycling in Managing Toxic Stormwater Pollutants’, Journal of Water Process Engineering 2022. https://doi.org/10.1016/j.jwpe.2022.102929
+[2] *Pamela Sofia Fabian*, Dong Hoon Lee, Sang Wook Shin, and Joo-Hyon Kang, [‘Assessment of Pyrene Adsorption on Biochars Prepared from Green Infrastructure Plants: Toward a Closed-Loop Recycling in Managing Toxic Stormwater Pollutants’](https://doi.org/10.1016/j.jwpe.2022.102929), Journal of Water Process Engineering 2022.
 
-[1] Dong Hoon Lee, *Pamela Sofia Fabian*, Jin Hwi Kim, Joo-Hyon Kang, ‘HSPF-Based Assessment of Inland Nutrient Source Control Strategies to Reduce Algal Blooms in Streams in Response to Future Climate Changes’, Sustainability 2021. https://doi.org/10.3390/su132212413
+[1] Dong Hoon Lee, *Pamela Sofia Fabian*, Jin Hwi Kim, Joo-Hyon Kang, [‘HSPF-Based Assessment of Inland Nutrient Source Control Strategies to Reduce Algal Blooms in Streams in Response to Future Climate Changes’](https://doi.org/10.3390/su132212413), Sustainability 2021.
 
+*[Under Review]*
+
+[2] *Pamela Sofia Fabian*, YoonKyung Cha, Hyun-Han Kwon, ‘Intra-annual chlorophyll-a dynamics under hydroclimatic extremes derived from a 44-year baseline: insights from a temperate river system (Nakdong River Basin, South Korea)’, Water Resources Research *[2nd Stage of Review]*
+
+[1] *Pamela Sofia Fabian*, Hemie Cho, Yoo-Geun Ham, Hyun-Han Kwon, ‘Climate-informed streamflow forecasting based on a Bayesian autoregressive exogenous stochastic volatility model and its use for hydrological drought forecasting, Journal of Hydrology *[2nd Stage of Review]*
 
 ---
 
