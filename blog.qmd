@@ -10,5 +10,4 @@ title: "Blog"
 
 ---
 
-Personal writing at [Climaginative](https://sofiafabian.substack.com).
 
