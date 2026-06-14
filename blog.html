@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Sofia Fabian</title>
+<title>Blog — Sofia Fabian – Sofia Fabian</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,97 +23,132 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+  .blog-wrap {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 6rem 2rem 5rem;
+    flex: 1;
   }
-}</script>
+  .blog-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--navy-muted);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .blog-tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--navy-muted);
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .post-card {
+    display: block;
+    text-decoration: none;
+    padding: 1.6rem 1.8rem;
+    background: var(--bg-white);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .post-card:hover {
+    border-color: var(--navy-faint);
+    box-shadow: 0 2px 12px rgba(15,28,46,0.07);
+  }
+  .post-card-date {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--navy-muted);
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+  }
+  .post-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+  }
+  .post-card-desc {
+    font-size: 13.5px;
+    color: var(--navy-muted);
+    font-weight: 300;
+    line-height: 1.6;
+  }
+</style>
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="home.css">
 </head>
 
-<body class="fullcontent quarto-light">
-
-<div id="quarto-search-results"></div>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<body>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Sofia Fabian</a>
+    <ul class="nav-links">
+      <li><a href="index.html#research">Research</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
   </div>
-  
+</nav>
 
+<div class="blog-wrap">
 
-</header>
+  <p class="blog-eyebrow">Blog</p>
+  <p class="blog-tagline">The joy is in the pursuit.</p>
 
+  <a class="post-card" href="blog/tedxseoul-2025.html">
+    <div class="post-card-date">December 5, 2025</div>
+    <div class="post-card-title">TEDxSeoul Year-End Gathering 2025</div>
+    <div class="post-card-desc">On replacing crisis framing with imagination and how Climaginative grew out of it.</div>
+  </a>
 
-<div style="text-align: center; padding: 4rem 0; font-family: Georgia, serif; font-size: 1.3rem; color: #555;">
-<p><em>The joy is in the pursuit.</em></p>
 </div>
-<hr>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-name">Sofia Fabian</div>
+    <div class="footer-copy">© 2026 Sofia Fabian</div>
+  </div>
+</footer>
 
 
-
-</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -212,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'quarto',
+        theme: 'light-border',
         placement: 'bottom-start',
       };
       if (contentFn) {
@@ -512,7 +547,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
 
 
 
