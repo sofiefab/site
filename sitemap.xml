@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sofiefab.github.io/site/research.html</loc>
-    <lastmod>2026-05-08T06:42:45.011Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sofiefab.github.io/site/about.html</loc>
-    <lastmod>2026-05-07T07:04:25.278Z</lastmod>
+    <loc>https://sofiefab.github.io/site/blog.html</loc>
+    <lastmod>2026-06-14T07:22:12.108Z</lastmod>
   </url>
   <url>
     <loc>https://sofiefab.github.io/site/index.html</loc>
-    <lastmod>2026-05-14T06:34:10.804Z</lastmod>
+    <lastmod>2026-06-14T07:22:12.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sofiefab.github.io/site/research.html</loc>
+    <lastmod>2026-06-14T07:19:34.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sofiefab.github.io/site/about.html</loc>
+    <lastmod>2026-06-14T07:22:12.108Z</lastmod>
   </url>
 </urlset>
