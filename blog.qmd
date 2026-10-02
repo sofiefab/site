@@ -89,6 +89,12 @@ format:
   <p class="blog-eyebrow">Blog</p>
   <p class="blog-tagline">The joy is in the pursuit.</p>
 
+  <a class="post-card" href="blog/kiww-2026.html">
+    <div class="post-card-date">September 12, 2026</div>
+    <div class="post-card-title">Korea International Water Week 2026</div>
+    <div class="post-card-desc">On the Global Youth Program, water–energy nexus indicators, and the Global Youth Declaration.</div>
+  </a>
+
   <a class="post-card" href="blog/tedxseoul-2025.html">
     <div class="post-card-date">December 5, 2025</div>
     <div class="post-card-title">TEDxSeoul Year-End Gathering 2025</div>
